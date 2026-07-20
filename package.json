@@ -1,0 +1,13 @@
+{
+  "name": "harness-the-llm",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "image-benchmark:capture": "node benchmarks/image-processing/capture-webkit.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.59.1"
+  }
+}
+
